@@ -28,6 +28,9 @@ const Navbar = () => {
           ) : (
             <>
               <li className="py-2 px-4 hover:bg-gray-100 rounded-lg">
+                <Link to="/todo">Todo</Link>
+              </li>
+              <li className="py-2 px-4 hover:bg-gray-100 rounded-lg">
                 <Link to="/form">Form</Link>
               </li>
               <li className="py-2 px-4 hover:bg-gray-100 rounded-lg">
